@@ -50,7 +50,8 @@
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="IPublicPlugInInterface">
+    <Reference Include="IPublicPlugInInterface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>IPublicPlugInInterface\bin\Debug\IPublicPlugInInterface.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Kinect">
